@@ -18,6 +18,6 @@ let car = [
     carName: "Toyato",
   },
 ];
-let anwer = car.pop();
+const anwer = car.pop();
 console.log(car);
 console.log(anwer);

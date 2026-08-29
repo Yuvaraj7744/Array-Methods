@@ -1,12 +1,12 @@
 let numbers = [10, 25, 30, 15, 40, 5, 50];
 
 const filterNumber = (number) => {
-  let resultl = number.filter((value) => {
+  const result = number.filter((value) => {
     if (value > 25) {
       return value;
     }
   });
-      console.log(resultl);
+      console.log(result);
 
 };
 filterNumber(numbers);
@@ -20,7 +20,7 @@ let students = [
 ];
 
 const filterStudents=(student)=>{
-    let answer=student.filter(value=>{
+    const answer=student.filter(value=>{
         if(value.mark>70){
             return value;
         }
