@@ -7,7 +7,7 @@ nameList.unshift("Arun", "Santhosh");
 console.log(nameList);
 
 let numbers = [20, 30, 40];
-let result = numbers.unshift(10);
+const result = numbers.unshift(10);
 console.log(result);
 
 let data = [];

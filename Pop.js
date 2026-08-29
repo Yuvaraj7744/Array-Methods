@@ -4,5 +4,20 @@ console.log(numbers);
 
 let sports = ["Basketball", "Football", "Cricket"];
 const result = sports.pop();
+
 console.log(sports);
 console.log(result);
+
+let car = [
+  {
+    carId: 1,
+    carName: "Shift",
+  },
+  {
+    carId: 2,
+    carName: "Toyato",
+  },
+];
+let anwer = car.pop();
+console.log(car);
+console.log(anwer);
